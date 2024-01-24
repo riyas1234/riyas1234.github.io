@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Riya's Website</title>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
-    <link href="/styles/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>Riya Sen</h1>
-    <img src="/images/firefox-icon.png" alt="The Firefox logo" width = "300" height = "300">
+<head>
+  <meta charset="utf-8">
+  <title>Riya's Website</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+  <link href="/styles/style.css" rel="stylesheet" type="text/css">
+</head>
 
-    <p>I am a senior at Northeastern University pursuing Mechanical Engineering and Data Science. I have completed 2 co-ops
-      during my college career, one at 24m Technologies and another at Tesla. My hobbies include running, photography, music, and origami.
-      In the past year I ran 2 half marathons and I hope to begin training for a full marathon soon. In my free time I photograph both
-      landscapes and my friends. You can check out my photography portfolio <a href="https://riyasenportfolio.wixsite.com/riya-photography">here</a>.
-      <br> On this site, I will include information about my...
-    </p>
+<body> 
+  <div class="right-sidebar-grid">
+    <header class="header">
+      <h1>Riya Sen</h1>
+    </header>
 
-    <ul>
-      <li>interests</li>
-      <li>loved ones</li>
-      <li>goals</li>
-    </ul>
-  <button onclick = openPhotographyPage()>Check out my Instagram</button>
+    <main class="main-content">
+      <p>I am a senior at Northeastern University pursuing Mechanical Engineering and Data Science. I have completed 2 co-ops
+        during my college career, one at 24m Technologies and another at Tesla. My hobbies include running, photography, music, and origami.
+        In the past year I ran 2 half marathons and I hope to begin training for a full marathon soon. In my free time I photograph both
+        landscapes and my friends. You can check out my photography portfolio <a href="https://riyasenportfolio.wixsite.com/riya-photography">here</a>.
+        I am also in the Northeastern chapter of Phi Sigma Rho, a social sorority of women in engineering and engineering technologies.
+        <br> <br> On this site, I will include information about my...
+      </p>
+      <ul>
+        <li>interests</li>
+        <li>loved ones</li>
+        <li>goals</li>
+      </ul>
+      <div class="text-center">
+        <button onclick = openPhotographyPage()>Check out my Instagram</button>
+      </div>
+    </main>
+
+    <section class="right-sidebar">        
+      <img src="/images/family-photo.png" alt="Photo with my roommates" width = 400 align = "right">
+      <img src="/images/running-photo.png" alt="Photo of me running" width = 400 align = "right">
+    </section>
+
+    <footer class="footer">
+    </footer>
+  </div>
+  
   <script src="/scripts/main.js">
   </script>
-  </body>
+
+</body>
 </html>
