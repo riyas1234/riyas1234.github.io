@@ -1,16 +1,3 @@
-// Image switcher code
-
-let myImage = document.querySelector('img');
-
-myImage.onclick = function() {
-  let mySrc = myImage.getAttribute('src');
-  if(mySrc === 'images/firefox-icon.png') {
-    myImage.setAttribute ('src','images/firefox2.png');
-  } else {
-    myImage.setAttribute ('src','images/firefox-icon.png');
-  }
-}
-
 // Personalized welcome message code
 
 let myButton = document.querySelector('button');
@@ -35,4 +22,8 @@ if(!localStorage.getItem('name')) {
 
 myButton.onclick = function() {
   setUserName();
+}
+
+function openPhotographyPage() {
+  window.open("https://www.instagram.com/thatsriyadiculous/?hl=en", "_blank")
 }
